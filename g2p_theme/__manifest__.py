@@ -1,9 +1,9 @@
 {
     "name": "OpenG2P Theme",
     "category": "G2P",
-    "version": "17.0.0.0.0",
+    "version": "17.0.1.2.1",
     "sequence": 1,
-    "author": "OpenG2P",
+    "author": "OpenG2P (OpenSPP fork)",
     "website": "https://openg2p.org",
     "license": "LGPL-3",
     "depends": ["base", "web", "auth_signup", "website"],

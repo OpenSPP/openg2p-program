@@ -2,10 +2,10 @@
 {
     "name": "OpenG2P Formio",
     "category": "G2P",
-    "version": "17.0.0.0.0",
+    "version": "17.0.1.2.1",
     "sequence": 1,
     "summary": "Form builders allow you to create, manage, and use dynamic forms with ease.",
-    "author": "OpenG2P",
+    "author": "OpenG2P (OpenSPP fork)",
     "website": "https://openg2p.org",
     "license": "LGPL-3",
     "depends": ["formio", "g2p_programs", "formio_storage_filestore"],
