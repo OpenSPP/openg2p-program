@@ -88,8 +88,12 @@ msgid "# Program Memberships"
 msgstr ""
 
 #. module: g2p_programs
+#: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__supplier_invoice_count
+msgid "# Vendor Bills"
+msgstr ""
+
+#. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/wizard/assign_to_program_wizard.py:0
 #: code:addons/g2p_programs/wizard/assign_to_program_wizard.py:0
 #, python-format
 msgid "%(registrant)s is added to the Program %(program)s"
@@ -98,14 +102,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/wizard/assign_to_program_wizard.py:0
-#: code:addons/g2p_programs/wizard/assign_to_program_wizard.py:0
 #, python-format
 msgid "%(registrant)s was already in the Program %(program)s"
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/program_membership.py:0
 #: code:addons/g2p_programs/models/program_membership.py:0
 #, python-format
 msgid "%s Beneficiaries duplicate."
@@ -114,8 +116,6 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/managers/cycle_manager.py:0
-#: code:addons/g2p_programs/models/managers/cycle_manager.py:0
-#: code:addons/g2p_programs/models/program_membership.py:0
 #: code:addons/g2p_programs/models/program_membership.py:0
 #, python-format
 msgid "%s Beneficiaries enrolled."
@@ -124,14 +124,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/programs.py:0
-#: code:addons/g2p_programs/models/programs.py:0
 #, python-format
 msgid "%s Instances of Beneficiaries duplicate."
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #, python-format
 msgid "%s beneficiaries imported."
@@ -145,6 +143,11 @@ msgstr ""
 #. module: g2p_programs
 #: model_terms:ir.ui.view,arch_db:g2p_programs.view_program_list_form
 msgid "'Configuration'"
+msgstr ""
+
+#. module: g2p_programs
+#: model:ir.actions.report,print_report_name:g2p_programs.action_print_entitlement
+msgid "'Entitlement Card'"
 msgstr ""
 
 #. module: g2p_programs
@@ -269,7 +272,6 @@ msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/cycle.py:0
 #: code:addons/g2p_programs/models/cycle.py:0
 #, python-format
 msgid "A cycle for which entitlements have been approved cannot be deleted."
@@ -497,11 +499,6 @@ msgid "Add to Program"
 msgstr ""
 
 #. module: g2p_programs
-#: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__addl_name
-msgid "Additional Name"
-msgstr ""
-
-#. module: g2p_programs
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__additional_info
 msgid "Additional info"
 msgstr ""
@@ -529,14 +526,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/managers/payment_manager.py:0
-#: code:addons/g2p_programs/models/managers/payment_manager.py:0
 #, python-format
 msgid "All entitlements selected are not approved!"
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/wizard/assign_payments_batch_wizard.py:0
 #: code:addons/g2p_programs/wizard/assign_payments_batch_wizard.py:0
 #, python-format
 msgid "All selected payments are already assigned to another batch."
@@ -623,11 +618,6 @@ msgid "Archived"
 msgstr ""
 
 #. module: g2p_programs
-#: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__area_id
-msgid "Area"
-msgstr ""
-
-#. module: g2p_programs
 #: model_terms:ir.ui.view,arch_db:g2p_programs.assign_to_program_wizard_form_view
 msgid "Assign"
 msgstr ""
@@ -670,7 +660,6 @@ msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #, python-format
 msgid ""
@@ -813,14 +802,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/managers/payment_manager.py:0
-#: code:addons/g2p_programs/models/managers/payment_manager.py:0
 #, python-format
 msgid "Batch Tags list cannot be empty."
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/programs.py:0
 #: code:addons/g2p_programs/models/programs.py:0
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership_duplicate__beneficiary_ids
 #: model_terms:ir.ui.view,arch_db:g2p_programs.view_program_membership_duplicate_form
@@ -831,14 +818,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/programs.py:0
-#: code:addons/g2p_programs/models/programs.py:0
 #, python-format
 msgid "Beneficiaries Duplicates"
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/cycle_membership.py:0
 #: code:addons/g2p_programs/models/cycle_membership.py:0
 #, python-format
 msgid ""
@@ -848,7 +833,6 @@ msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/cycle_membership.py:0
 #: code:addons/g2p_programs/models/cycle_membership.py:0
 #, python-format
 msgid ""
@@ -877,7 +861,6 @@ msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #, python-format
 msgid "Beneficiary import finished."
@@ -938,13 +921,7 @@ msgid "Calendar Event"
 msgstr ""
 
 #. module: g2p_programs
-#: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__can_publish
-msgid "Can Publish"
-msgstr ""
-
-#. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/duplicate.py:0
 #: code:addons/g2p_programs/models/duplicate.py:0
 #, python-format
 msgid "Can't delete duplicated membership"
@@ -962,14 +939,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/managers/entitlement_manager.py:0
-#: code:addons/g2p_programs/models/managers/entitlement_manager.py:0
 #, python-format
 msgid "Cancel %s entitlements started."
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/managers/entitlement_manager.py:0
 #: code:addons/g2p_programs/models/managers/entitlement_manager.py:0
 #, python-format
 msgid "Cancel entitlements for cycle."
@@ -997,11 +972,6 @@ msgstr ""
 #. module: g2p_programs
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_entitlement__is_cash_entitlement
 msgid "Cash Entitlement"
-msgstr ""
-
-#. module: g2p_programs
-#: model:ir.model,name:g2p_programs.model_g2p_program_entitlement_manager
-msgid "Cash Entitlement Manager"
 msgstr ""
 
 #. module: g2p_programs
@@ -1340,14 +1310,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-javascript
 #: code:addons/g2p_programs/static/src/xml/create_program_template.xml:0
-#: code:addons/g2p_programs/static/src/xml/create_program_template.xml:0
 #, python-format
 msgid "Create Program"
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-javascript
-#: code:addons/g2p_programs/static/src/xml/create_program_template.xml:0
 #: code:addons/g2p_programs/static/src/xml/create_program_template.xml:0
 #, python-format
 msgid "Create a New Program"
@@ -1499,12 +1467,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/g2p_programs/models/cycle.py:0
 #: code:addons/g2p_programs/models/cycle.py:0
-#: code:addons/g2p_programs/models/cycle.py:0
-#: code:addons/g2p_programs/models/cycle.py:0
 #: code:addons/g2p_programs/models/managers/cycle_manager.py:0
-#: code:addons/g2p_programs/models/managers/cycle_manager.py:0
-#: code:addons/g2p_programs/models/programs.py:0
-#: code:addons/g2p_programs/models/programs.py:0
 #: code:addons/g2p_programs/models/programs.py:0
 #: code:addons/g2p_programs/models/programs.py:0
 #: model:ir.actions.act_window,name:g2p_programs.action_cycle
@@ -1554,7 +1517,6 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/cycle.py:0
-#: code:addons/g2p_programs/models/cycle.py:0
 #, python-format
 msgid "Cycle Members"
 msgstr ""
@@ -1587,7 +1549,6 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/cycle.py:0
-#: code:addons/g2p_programs/models/cycle.py:0
 #, python-format
 msgid ""
 "Cycle cannot be deleted when Entitlements have been added to the cycle."
@@ -1595,7 +1556,6 @@ msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/cycle.py:0
 #: code:addons/g2p_programs/models/cycle.py:0
 #, python-format
 msgid "Cycle cannot be deleted when beneficiaries are present in the cycle."
@@ -1616,7 +1576,6 @@ msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/programs.py:0
 #: code:addons/g2p_programs/models/programs.py:0
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_program__cycle_ids
 #: model:ir.ui.menu,name:g2p_programs.g2p_program_cycle_root
@@ -1730,8 +1689,6 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/program_membership.py:0
-#: code:addons/g2p_programs/models/program_membership.py:0
-#: code:addons/g2p_programs/models/programs.py:0
 #: code:addons/g2p_programs/models/programs.py:0
 #, python-format
 msgid "Deduplication"
@@ -1846,7 +1803,6 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/cycle.py:0
-#: code:addons/g2p_programs/models/cycle.py:0
 #, python-format
 msgid "Delete only draft cycles with no approved entitlements."
 msgstr ""
@@ -1869,14 +1825,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/wizard/assign_to_program_wizard.py:0
-#: code:addons/g2p_programs/wizard/assign_to_program_wizard.py:0
 #, python-format
 msgid "Disabled Individual(s) can't be added to the program %s"
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/wizard/assign_to_program_wizard.py:0
 #: code:addons/g2p_programs/wizard/assign_to_program_wizard.py:0
 #, python-format
 msgid "Disabled group can't be added to the program."
@@ -1885,14 +1839,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/wizard/assign_to_program_wizard.py:0
-#: code:addons/g2p_programs/wizard/assign_to_program_wizard.py:0
 #, python-format
 msgid "Disabled group(s) can't be added to the program %s"
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/wizard/assign_to_program_wizard.py:0
 #: code:addons/g2p_programs/wizard/assign_to_program_wizard.py:0
 #, python-format
 msgid "Disabled individaul can't be added to the program."
@@ -2077,8 +2029,6 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/managers/cycle_manager.py:0
-#: code:addons/g2p_programs/models/managers/cycle_manager.py:0
-#: code:addons/g2p_programs/models/managers/program_manager.py:0
 #: code:addons/g2p_programs/models/managers/program_manager.py:0
 #, python-format
 msgid "Eligibility check finished."
@@ -2086,8 +2036,6 @@ msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/managers/cycle_manager.py:0
-#: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #, python-format
@@ -2162,10 +2110,6 @@ msgstr ""
 #. odoo-python
 #: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #: code:addons/g2p_programs/models/managers/cycle_manager.py:0
-#: code:addons/g2p_programs/models/managers/cycle_manager.py:0
-#: code:addons/g2p_programs/models/managers/cycle_manager.py:0
-#: code:addons/g2p_programs/models/program_membership.py:0
-#: code:addons/g2p_programs/models/program_membership.py:0
 #: code:addons/g2p_programs/models/program_membership.py:0
 #: code:addons/g2p_programs/models/program_membership.py:0
 #, python-format
@@ -2222,9 +2166,6 @@ msgstr ""
 #. odoo-python
 #: code:addons/g2p_programs/models/entitlement.py:0
 #: code:addons/g2p_programs/models/entitlement.py:0
-#: code:addons/g2p_programs/models/entitlement.py:0
-#: code:addons/g2p_programs/models/entitlement.py:0
-#: code:addons/g2p_programs/models/managers/entitlement_manager.py:0
 #: code:addons/g2p_programs/models/managers/entitlement_manager.py:0
 #: model:ir.model,name:g2p_programs.model_g2p_entitlement
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_multi_entitlement_approval__entitlement_id
@@ -2246,6 +2187,7 @@ msgid "Entitlement Cash"
 msgstr ""
 
 #. module: g2p_programs
+#: model:ir.model,name:g2p_programs.model_g2p_program_entitlement_manager
 #: model_terms:ir.ui.view,arch_db:g2p_programs.view_entitlement_manager_form
 #: model_terms:ir.ui.view,arch_db:g2p_programs.view_program_list_form
 msgid "Entitlement Manager"
@@ -2259,7 +2201,6 @@ msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #, python-format
 msgid "Entitlement Ready."
@@ -2285,7 +2226,6 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/managers/cycle_manager.py:0
-#: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #: model:ir.actions.act_window,name:g2p_programs.action_entitlement
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_cycle__entitlement_ids
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_multi_entitlement_approval_wizard__entitlement_ids
@@ -2303,14 +2243,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/managers/entitlement_manager.py:0
-#: code:addons/g2p_programs/models/managers/entitlement_manager.py:0
 #, python-format
 msgid "Entitlements Cancelled."
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/managers/entitlement_manager.py:0
 #: code:addons/g2p_programs/models/managers/entitlement_manager.py:0
 #, python-format
 msgid "Entitlements Set to Pending Validation."
@@ -2319,9 +2257,13 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/managers/entitlement_manager.py:0
-#: code:addons/g2p_programs/models/managers/entitlement_manager.py:0
 #, python-format
 msgid "Entitlements Validated and Approved."
+msgstr ""
+
+#. module: g2p_programs
+#: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__event_data_ids
+msgid "Event Data IDs"
 msgstr ""
 
 #. module: g2p_programs
@@ -2386,11 +2328,6 @@ msgid "Failed Transactions Statistics"
 msgstr ""
 
 #. module: g2p_programs
-#: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__family_name
-msgid "Family Name"
-msgstr ""
-
-#. module: g2p_programs
 #: model:ir.model.fields,help:g2p_programs.field_g2p_program_membership__phone_sanitized
 msgid ""
 "Field used to store sanitized phone number. Helps speeding up searches and "
@@ -2407,6 +2344,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:g2p_programs.selection__g2p_cycle_recurrence_mixin__byday__1
 #: model:ir.model.fields.selection,name:g2p_programs.selection__g2p_program_create_wizard__byday__1
 msgid "First"
+msgstr ""
+
+#. module: g2p_programs
+#: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__given_name
+msgid "First Name"
 msgstr ""
 
 #. module: g2p_programs
@@ -2496,11 +2438,6 @@ msgid "Geo Longitude"
 msgstr ""
 
 #. module: g2p_programs
-#: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__given_name
-msgid "Given Name"
-msgstr ""
-
-#. module: g2p_programs
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__is_group
 #: model:ir.model.fields.selection,name:g2p_programs.selection__g2p_assign_program_wizard__target_type__group
 #: model:ir.model.fields.selection,name:g2p_programs.selection__g2p_program__target_type__group
@@ -2564,6 +2501,11 @@ msgstr ""
 #. module: g2p_programs
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_program__have_members
 msgid "Have Beneficiaries"
+msgstr ""
+
+#. module: g2p_programs
+#: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__hide_peppol_fields
+msgid "Hide Peppol Fields"
 msgstr ""
 
 #. module: g2p_programs
@@ -2740,7 +2682,6 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/managers/eligibility_manager.py:0
-#: code:addons/g2p_programs/models/managers/eligibility_manager.py:0
 #, python-format
 msgid "Import finished."
 msgstr ""
@@ -2748,14 +2689,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/managers/cycle_manager.py:0
-#: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #, python-format
 msgid "Import of %s beneficiaries started."
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #, python-format
 msgid "Importing beneficiaries."
@@ -2827,7 +2766,6 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/registrant.py:0
-#: code:addons/g2p_programs/models/registrant.py:0
 #, python-format
 msgid "Invalid Email! Please enter a valid email address."
 msgstr ""
@@ -2843,6 +2781,11 @@ msgid "Invoices"
 msgstr ""
 
 #. module: g2p_programs
+#: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__is_coa_installed
+msgid "Is Coa Installed"
+msgstr ""
+
+#. module: g2p_programs
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_cycle__message_is_follower
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_program__message_is_follower
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_fund__message_is_follower
@@ -2854,11 +2797,6 @@ msgstr ""
 #. module: g2p_programs
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__is_public
 msgid "Is Public"
-msgstr ""
-
-#. module: g2p_programs
-#: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__is_published
-msgid "Is Published"
 msgstr ""
 
 #. module: g2p_programs
@@ -2969,6 +2907,11 @@ msgid "Last Deduplication Date"
 msgstr ""
 
 #. module: g2p_programs
+#: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__family_name
+msgid "Last Name"
+msgstr ""
+
+#. module: g2p_programs
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_assign_payments_batch_wizard__write_uid
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_assign_program_registrants__write_uid
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_assign_program_wizard__write_uid
@@ -3053,7 +2996,6 @@ msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/managers/payment_manager.py:0
 #: code:addons/g2p_programs/models/managers/payment_manager.py:0
 #, python-format
 msgid "Last tag in the Batch Tags list must contain empty domain."
@@ -3225,6 +3167,11 @@ msgid "Messages"
 msgstr ""
 
 #. module: g2p_programs
+#: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__addl_name
+msgid "Middle Name"
+msgstr ""
+
+#. module: g2p_programs
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__mobile
 msgid "Mobile"
 msgstr ""
@@ -3310,7 +3257,6 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/programs.py:0
-#: code:addons/g2p_programs/models/programs.py:0
 #, python-format
 msgid "New cycle %s created."
 msgstr ""
@@ -3373,11 +3319,6 @@ msgstr ""
 #: code:addons/g2p_programs/models/cycle.py:0
 #: code:addons/g2p_programs/models/cycle.py:0
 #: code:addons/g2p_programs/models/cycle.py:0
-#: code:addons/g2p_programs/models/cycle.py:0
-#: code:addons/g2p_programs/models/cycle.py:0
-#: code:addons/g2p_programs/models/cycle.py:0
-#: code:addons/g2p_programs/models/cycle.py:0
-#: code:addons/g2p_programs/models/programs.py:0
 #: code:addons/g2p_programs/models/programs.py:0
 #, python-format
 msgid "No Cycle Manager defined."
@@ -3386,8 +3327,6 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/program_membership.py:0
-#: code:addons/g2p_programs/models/program_membership.py:0
-#: code:addons/g2p_programs/models/programs.py:0
 #: code:addons/g2p_programs/models/programs.py:0
 #, python-format
 msgid "No Deduplication Manager defined."
@@ -3395,7 +3334,6 @@ msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/managers/program_manager.py:0
 #: code:addons/g2p_programs/models/managers/program_manager.py:0
 #, python-format
 msgid "No Eligibility Manager defined."
@@ -3407,13 +3345,7 @@ msgstr ""
 #: code:addons/g2p_programs/models/cycle.py:0
 #: code:addons/g2p_programs/models/cycle.py:0
 #: code:addons/g2p_programs/models/cycle.py:0
-#: code:addons/g2p_programs/models/cycle.py:0
-#: code:addons/g2p_programs/models/cycle.py:0
-#: code:addons/g2p_programs/models/cycle.py:0
-#: code:addons/g2p_programs/models/cycle.py:0
 #: code:addons/g2p_programs/models/entitlement.py:0
-#: code:addons/g2p_programs/models/entitlement.py:0
-#: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #, python-format
 msgid "No Entitlement Manager defined."
@@ -3421,8 +3353,6 @@ msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/cycle.py:0
-#: code:addons/g2p_programs/models/cycle.py:0
 #: code:addons/g2p_programs/models/cycle.py:0
 #: code:addons/g2p_programs/models/cycle.py:0
 #, python-format
@@ -3434,16 +3364,12 @@ msgstr ""
 #: code:addons/g2p_programs/models/programs.py:0
 #: code:addons/g2p_programs/models/programs.py:0
 #: code:addons/g2p_programs/models/programs.py:0
-#: code:addons/g2p_programs/models/programs.py:0
-#: code:addons/g2p_programs/models/programs.py:0
-#: code:addons/g2p_programs/models/programs.py:0
 #, python-format
 msgid "No Program Manager defined."
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/programs.py:0
 #: code:addons/g2p_programs/models/programs.py:0
 #, python-format
 msgid "No Registrants Added to Program"
@@ -3452,7 +3378,6 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/managers/cycle_manager.py:0
-#: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #, python-format
 msgid "No beneficiaries to import."
 msgstr ""
@@ -3460,8 +3385,6 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/program_membership.py:0
-#: code:addons/g2p_programs/models/program_membership.py:0
-#: code:addons/g2p_programs/models/programs.py:0
 #: code:addons/g2p_programs/models/programs.py:0
 #, python-format
 msgid "No duplicates found."
@@ -3469,7 +3392,6 @@ msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/programs.py:0
 #: code:addons/g2p_programs/models/programs.py:0
 #, python-format
 msgid ""
@@ -3479,14 +3401,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/managers/program_manager.py:0
-#: code:addons/g2p_programs/models/managers/program_manager.py:0
 #, python-format
 msgid "No new beneficiaries enrolled."
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/managers/payment_manager.py:0
 #: code:addons/g2p_programs/models/managers/payment_manager.py:0
 #, python-format
 msgid "No payment batches to process."
@@ -3617,14 +3537,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/cycle.py:0
-#: code:addons/g2p_programs/models/cycle.py:0
 #, python-format
 msgid "Once a cycle has been approved, it cannot be deleted."
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #, python-format
 msgid "Only 'to approve' cycles can be approved."
@@ -3633,14 +3551,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/accounting/fund_management.py:0
-#: code:addons/g2p_programs/models/accounting/fund_management.py:0
 #, python-format
 msgid "Only cancelled program funds can be reset to draft."
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/entitlement.py:0
 #: code:addons/g2p_programs/models/entitlement.py:0
 #, python-format
 msgid "Only draft entitlements are allowed to be deleted"
@@ -3649,14 +3565,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/accounting/fund_management.py:0
-#: code:addons/g2p_programs/models/accounting/fund_management.py:0
 #, python-format
 msgid "Only draft program funds can be cancelled."
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/accounting/fund_management.py:0
 #: code:addons/g2p_programs/models/accounting/fund_management.py:0
 #, python-format
 msgid "Only draft program funds can be posted."
@@ -3665,14 +3579,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/programs.py:0
-#: code:addons/g2p_programs/models/programs.py:0
 #, python-format
 msgid "Ony 'active' programs can be ended."
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/cycle.py:0
 #: code:addons/g2p_programs/models/cycle.py:0
 #, python-format
 msgid "Ony 'draft' cycles can be set for approval."
@@ -3681,14 +3593,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/programs.py:0
-#: code:addons/g2p_programs/models/programs.py:0
 #, python-format
 msgid "Ony 'ended' programs can be re-activated."
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/cycle.py:0
 #: code:addons/g2p_programs/models/cycle.py:0
 #, python-format
 msgid "Ony 'to approve' cycles can be reset to draft."
@@ -3815,7 +3725,6 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/queue_job_channel.py:0
-#: code:addons/g2p_programs/models/queue_job_channel.py:0
 #, python-format
 msgid "Parent channel required."
 msgstr ""
@@ -3865,9 +3774,6 @@ msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/managers/payment_manager.py:0
-#: code:addons/g2p_programs/models/managers/payment_manager.py:0
-#: code:addons/g2p_programs/models/managers/payment_manager.py:0
 #: code:addons/g2p_programs/models/managers/payment_manager.py:0
 #: code:addons/g2p_programs/models/managers/payment_manager.py:0
 #: code:addons/g2p_programs/models/managers/payment_manager.py:0
@@ -3942,11 +3848,6 @@ msgid "Payment Managers"
 msgstr ""
 
 #. module: g2p_programs
-#: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__property_payment_method_id
-msgid "Payment Method"
-msgstr ""
-
-#. module: g2p_programs
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_entitlement__payment_status
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_payment__status
 #: model_terms:ir.ui.view,arch_db:g2p_programs.view_cycle_form
@@ -3975,14 +3876,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/managers/payment_manager.py:0
-#: code:addons/g2p_programs/models/managers/payment_manager.py:0
 #, python-format
 msgid "Payment batch successfully created for %s beneficiaries."
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/cycle.py:0
 #: code:addons/g2p_programs/models/cycle.py:0
 #: model:ir.actions.act_window,name:g2p_programs.action_payment
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_entitlement__payment_ids
@@ -4087,14 +3986,6 @@ msgid "Posted"
 msgstr ""
 
 #. module: g2p_programs
-#: model:ir.model.fields,help:g2p_programs.field_g2p_program_membership__property_payment_method_id
-msgid ""
-"Preferred payment method when paying this vendor. This is used to filter "
-"vendor bills by preferred payment method to register payments in mass. Use "
-"cases: create bank files for batch wires, check runs."
-msgstr ""
-
-#. module: g2p_programs
 #: model_terms:ir.ui.view,arch_db:g2p_programs.view_cycle_form
 msgid "Prepare Entitlement"
 msgstr ""
@@ -4112,14 +4003,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/managers/cycle_manager.py:0
-#: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #, python-format
 msgid "Prepare entitlement for %s beneficiaries started."
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #, python-format
 msgid "Prepare entitlement for beneficiaries."
@@ -4133,14 +4022,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/managers/payment_manager.py:0
-#: code:addons/g2p_programs/models/managers/payment_manager.py:0
 #, python-format
 msgid "Prepare payments for entitlements in cycle."
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/managers/payment_manager.py:0
 #: code:addons/g2p_programs/models/managers/payment_manager.py:0
 #, python-format
 msgid "Prepare payments started for %s entitlements."
@@ -4149,14 +4036,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/managers/payment_manager.py:0
-#: code:addons/g2p_programs/models/managers/payment_manager.py:0
 #, python-format
 msgid "Prepared payments."
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/managers/payment_manager.py:0
 #: code:addons/g2p_programs/models/managers/payment_manager.py:0
 #, python-format
 msgid "Preparing Payments Asynchronously."
@@ -4178,6 +4063,11 @@ msgid "Print Summary"
 msgstr ""
 
 #. module: g2p_programs
+#: model:ir.actions.report,name:g2p_programs.action_print_entitlement
+msgid "Print Vouchers"
+msgstr ""
+
+#. module: g2p_programs
 #: model_terms:ir.actions.act_window,help:g2p_programs.action_account_journal_beneficiary
 #: model_terms:ir.actions.act_window,help:g2p_programs.action_account_journal_prog_benf
 msgid "Process entitlements to automatically post the journal entries here."
@@ -4191,8 +4081,6 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/programs.py:0
-#: code:addons/g2p_programs/models/programs.py:0
-#: code:addons/g2p_programs/wizard/assign_to_program_wizard.py:0
 #: code:addons/g2p_programs/wizard/assign_to_program_wizard.py:0
 #: model:ir.model,name:g2p_programs.model_g2p_program
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_assign_program_wizard__program_id
@@ -4258,9 +4146,6 @@ msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/accounting/fund_management.py:0
-#: code:addons/g2p_programs/models/accounting/fund_management.py:0
-#: code:addons/g2p_programs/models/accounting/fund_management.py:0
 #: code:addons/g2p_programs/models/accounting/fund_management.py:0
 #: code:addons/g2p_programs/models/accounting/fund_management.py:0
 #: code:addons/g2p_programs/models/accounting/fund_management.py:0
@@ -4367,7 +4252,6 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/wizard/create_program_wizard.py:0
-#: code:addons/g2p_programs/wizard/create_program_wizard.py:0
 #: model:ir.actions.act_window,name:g2p_programs.action_program_list
 #: model:ir.ui.menu,name:g2p_programs.g2p_program_menu_root
 #: model:ir.ui.menu,name:g2p_programs.menu_program_list
@@ -4389,7 +4273,6 @@ msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/programs.py:0
 #: code:addons/g2p_programs/models/programs.py:0
 #, python-format
 msgid "Project"
@@ -4498,7 +4381,6 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/wizard/assign_to_program_wizard.py:0
-#: code:addons/g2p_programs/wizard/assign_to_program_wizard.py:0
 #, python-format
 msgid "Registrant's was already in the Program %s"
 msgstr ""
@@ -4589,11 +4471,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__activity_user_id
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership_duplicate__activity_user_id
 msgid "Responsible User"
-msgstr ""
-
-#. module: g2p_programs
-#: model:ir.model.fields,help:g2p_programs.field_g2p_program_membership__website_id
-msgid "Restrict publishing to this website."
 msgstr ""
 
 #. module: g2p_programs
@@ -4816,14 +4693,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/managers/payment_manager.py:0
-#: code:addons/g2p_programs/models/managers/payment_manager.py:0
 #, python-format
 msgid "Send payments completed."
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/managers/payment_manager.py:0
 #: code:addons/g2p_programs/models/managers/payment_manager.py:0
 #, python-format
 msgid "Send payments for batches in cycle."
@@ -4832,14 +4707,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/managers/payment_manager.py:0
-#: code:addons/g2p_programs/models/managers/payment_manager.py:0
 #, python-format
 msgid "Send payments started for %s batches."
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/managers/payment_manager.py:0
 #: code:addons/g2p_programs/models/managers/payment_manager.py:0
 #, python-format
 msgid "Sending Payments Asynchronously"
@@ -4896,13 +4769,17 @@ msgid "Set Defaults"
 msgstr ""
 
 #. module: g2p_programs
+#: model:ir.model.fields,help:g2p_programs.field_g2p_program_membership__use_partner_credit_limit
+msgid "Set a value greater than 0.0 to activate a credit limit check"
+msgstr ""
+
+#. module: g2p_programs
 #: model_terms:ir.ui.view,arch_db:g2p_programs.view_cycle_form
 msgid "Set as Ended"
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/managers/entitlement_manager.py:0
 #: code:addons/g2p_programs/models/managers/entitlement_manager.py:0
 #, python-format
 msgid "Set entitlements to pending validation for cycle."
@@ -4916,7 +4793,6 @@ msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/managers/entitlement_manager.py:0
 #: code:addons/g2p_programs/models/managers/entitlement_manager.py:0
 #, python-format
 msgid "Setting %s entitlements to pending validation has started."
@@ -5146,14 +5022,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/entitlement.py:0
-#: code:addons/g2p_programs/models/entitlement.py:0
 #, python-format
 msgid "The \"Valid Until\" date cannot be earlier than the \"Valid From\" date."
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/wizard/create_program_wizard.py:0
 #: code:addons/g2p_programs/wizard/create_program_wizard.py:0
 #, python-format
 msgid ""
@@ -5163,7 +5037,6 @@ msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #, python-format
 msgid "The Cycle is not in draft mode"
@@ -5197,7 +5070,6 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/managers/cycle_manager.py:0
-#: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #, python-format
 msgid "The cycle approver group is not specified!"
 msgstr ""
@@ -5211,11 +5083,6 @@ msgstr ""
 #: model:ir.model.fields,help:g2p_programs.field_g2p_program_membership__property_account_position_id
 msgid ""
 "The fiscal position determines the taxes/accounts used for this contact."
-msgstr ""
-
-#. module: g2p_programs
-#: model:ir.model.fields,help:g2p_programs.field_g2p_program_membership__website_url
-msgid "The full URL to access the document through the website."
 msgstr ""
 
 #. module: g2p_programs
@@ -5272,7 +5139,6 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/managers/payment_manager.py:0
-#: code:addons/g2p_programs/models/managers/payment_manager.py:0
 #, python-format
 msgid "There are no new payments issued!"
 msgstr ""
@@ -5280,14 +5146,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/wizard/assign_payments_batch_wizard.py:0
-#: code:addons/g2p_programs/wizard/assign_payments_batch_wizard.py:0
 #, python-format
 msgid "There are no selected payments!"
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/wizard/assign_to_program_wizard.py:0
 #: code:addons/g2p_programs/wizard/assign_to_program_wizard.py:0
 #, python-format
 msgid "There are no selected registrants!"
@@ -5324,14 +5188,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/accounting/fund_management.py:0
-#: code:addons/g2p_programs/models/accounting/fund_management.py:0
 #, python-format
 msgid "This fund is already posted and cannot be deleted."
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/accounting/fund_management.py:0
 #: code:addons/g2p_programs/models/accounting/fund_management.py:0
 #, python-format
 msgid "This fund is now posted!"
@@ -5448,7 +5310,6 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/wizard/assign_to_program_wizard.py:0
-#: code:addons/g2p_programs/wizard/assign_to_program_wizard.py:0
 #, python-format
 msgid ""
 "Total registrants:%(total)s, Already in program:%(existing)s, Newly "
@@ -5552,14 +5413,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/managers/entitlement_manager.py:0
-#: code:addons/g2p_programs/models/managers/entitlement_manager.py:0
 #, python-format
 msgid "Validate %s entitlements started."
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/managers/entitlement_manager.py:0
 #: code:addons/g2p_programs/models/managers/entitlement_manager.py:0
 #, python-format
 msgid "Validate and approve entitlements for cycle."
@@ -5598,18 +5457,8 @@ msgid "Verify eligibility"
 msgstr ""
 
 #. module: g2p_programs
-#: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__website_published
-msgid "Visible on current website"
-msgstr ""
-
-#. module: g2p_programs
-#: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__visitor_ids
-msgid "Visitors"
-msgstr ""
-
-#. module: g2p_programs
-#: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__website_id
-msgid "Website"
+#: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__area_id
+msgid "Village"
 msgstr ""
 
 #. module: g2p_programs
@@ -5624,11 +5473,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__website_message_ids
 #: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership_duplicate__website_message_ids
 msgid "Website Messages"
-msgstr ""
-
-#. module: g2p_programs
-#: model:ir.model.fields,field_description:g2p_programs.field_g2p_program_membership__website_url
-msgid "Website URL"
 msgstr ""
 
 #. module: g2p_programs
@@ -5689,14 +5533,12 @@ msgstr ""
 #. module: g2p_programs
 #. odoo-python
 #: code:addons/g2p_programs/models/managers/cycle_manager.py:0
-#: code:addons/g2p_programs/models/managers/cycle_manager.py:0
 #, python-format
 msgid "You are not allowed to approve this cycle!"
 msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/entitlement.py:0
 #: code:addons/g2p_programs/models/entitlement.py:0
 #, python-format
 msgid ""
@@ -5706,7 +5548,6 @@ msgstr ""
 
 #. module: g2p_programs
 #. odoo-python
-#: code:addons/g2p_programs/models/entitlement.py:0
 #: code:addons/g2p_programs/models/entitlement.py:0
 #, python-format
 msgid "You have no access in the Entitlement List View"
