@@ -33,23 +33,23 @@ class BaseEligibilityManager(models.AbstractModel):
     program_id = fields.Many2one("g2p.program", string="Program", required=True)
 
     def enroll_eligible_registrants(self, program_memberships):
-        """
-        This method is used to validate if a user match the criteria needed to be enrolled in a program.
+        """This method is used to validate if a user match the criteria needed to be enrolled in a program.
+        
         Args:
             program_membership:
-
+        
         Returns:
             bool: True if the user match the criterias, False otherwise.
         """
         raise NotImplementedError()
 
     def verify_cycle_eligibility(self, cycle, membership):
-        """
-        This method is used to validate if a beneficiary match the criteria needed to be enrolled in a cycle.
+        """This method is used to validate if a beneficiary match the criteria needed to be enrolled in a cycle.
+        
         Args:
             cycle:
             membership:
-
+        
         Returns:
             bool: True if the cycle match the criterias, False otherwise.
         """

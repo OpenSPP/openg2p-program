@@ -39,8 +39,8 @@ class BaseProgramManager(models.AbstractModel):
     program_id = fields.Many2one("g2p.program", string="Program", required=True)
 
     def last_cycle(self):
-        """
-        Returns the last cycle of the program
+        """Returns the last cycle of the program.
+        
         Returns:
             cycle: the last cycle of the program
         """
@@ -49,16 +49,16 @@ class BaseProgramManager(models.AbstractModel):
         raise NotImplementedError()
 
     def new_cycle(self):
-        """
-        Create the next cycle of the program
+        """Create the next cycle of the program.
+        
         Returns:
             cycle: the newly created cycle
         """
         raise NotImplementedError()
 
     def enroll_eligible_registrants(self, state=None):
-        """
-        This method is used to enroll the beneficiaries in a program.
+        """This method is used to enroll the beneficiaries in a program.
+        
         Returns:
             bool: True if the beneficiaries were enrolled, False otherwise.
         """
@@ -93,8 +93,8 @@ class DefaultProgramManager(models.Model):
     # recurrence_id = fields.Many2one('calendar.recurrence', related='event_id.recurrence_id')
 
     def last_cycle(self):
-        """
-        Returns the last cycle of the program
+        """Returns the last cycle of the program.
+        
         Returns:
             cycle: the last cycle of the program
         """
@@ -104,8 +104,8 @@ class DefaultProgramManager(models.Model):
         return cycles and cycles[0] or None
 
     def new_cycle(self):
-        """
-        Create the next cycle of the program
+        """Create the next cycle of the program.
+        
         Returns:
             cycle: the newly created cycle
         """
